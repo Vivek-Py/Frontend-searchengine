@@ -10,10 +10,14 @@
     border: none; /* Prevents default border color bleeding */
     border: solid 1px;
     color:  #ffffff;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
     background-color: #618be7;
     border-radius: 5px;
-    margin-left: 335px;
+    margin-left: 326px;
+}
+
+.nav-link {
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
 }
 
 a {
