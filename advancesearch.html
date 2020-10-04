@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./advancesearch.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">Google Search</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="d-flex align-items-center vh-75">       
+        <div class="container">
+            <br><br><br><br>
+            <form action="https://google.com/search">
+                &nbsp; Find pages with... <br><br>
+                <table>
+                    <tr>
+                        <td>these words:</td> <td><input class="inputbox" type="text" name="as_q" ></td>
+                    </tr>
+                    <tr>
+                        <td>exact word/phrase:</td> <td><input class="inputbox" type="text" name="as_epq" ></td>
+                    </tr>
+                    <tr>
+                        <td>any of these words:</td> <td><input class="inputbox" type="text" name="as_oq" ></td>
+                    </tr>
+                    <tr>
+                        <td>none of these words:</td> <td><input class="inputbox" type="text" name="as_eq" ></td>
+                    </tr>
+                </table>
+                <br><input class="searchbtn" type="submit" value="Advanced Search">
+            </form>                 
+        </div>
+    </div>
+</body>
+</html>

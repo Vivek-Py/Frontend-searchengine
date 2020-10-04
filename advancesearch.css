@@ -1,0 +1,21 @@
+.inputbox {
+    width: 300px;
+    border: none; /* Prevents default border color bleeding */
+    border: solid 1px #c9c4c4;
+    margin-left: 25px;
+    margin: 10px;
+}
+
+.searchbtn {
+    border: none; /* Prevents default border color bleeding */
+    border: solid 1px;
+    color:  #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #618be7;
+    border-radius: 5px;
+    margin-left: 335px;
+}
+
+a {
+    color:rgb(107, 99, 99);
+  }
